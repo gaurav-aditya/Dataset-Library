@@ -4,7 +4,7 @@ variety of domains.
 
 ## Installation
 
-To run the World Dataset Library application locally, you need to have the following software installed on your system:
+To run the Dataset Library application locally, you need to have the following software installed on your system:
 
 - Python (version 3.6 or higher)
 - Node.js (version 12 or higher)
