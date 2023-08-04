@@ -17,5 +17,7 @@ You can follow these steps to install and run the application:
 4. Create a superuser account by running the command `python manage.py createsuperuser` and follow the prompts to enter your desired username and password.
 5. Start the development server by running the command `python manage.py runserver`.
 6. Open your web browser and navigate to `http://localhost:8000/` to access the application.
-## Demo amdin panel
+## Demo Admin panel
 ![image](https://github.com/gaurav-aditya/Dataset-Library/assets/110540811/ddbfe5cb-b6f6-4869-9c20-becd7360ad16)
+## Demo Dataset Creation
+![image](https://github.com/gaurav-aditya/Dataset-Library/assets/110540811/95e93ef9-e8cb-4f70-8b39-ad0dede0f518)
