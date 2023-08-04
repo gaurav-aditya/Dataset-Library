@@ -22,3 +22,4 @@ You can follow these steps to install and run the application:
 ## Demo Dataset Creation
 ![image](https://github.com/gaurav-aditya/Dataset-Library/assets/110540811/95e93ef9-e8cb-4f70-8b39-ad0dede0f518)
 
+[![Stargazers repo roster for @gaurav-aditya/Dataset-Library](https://reporoster.com/stars/gaurav-aditya/Dataset-Library)](https://github.com/gaurav-aditya/Dataset-Library/stargazers)
