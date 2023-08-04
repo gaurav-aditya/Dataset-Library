@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Datasets</title>
+</head>
+<body>
+    <h1>All Datasets</h1>
+
+    <!-- Add a search bar form -->
+    <form method="get" action="{% url 'dataset_list' %}">
+        <label for="search">Search:</label>
+        <input type="text" name="q" id="search">
+        <button type="submit">Search</button>
+    </form>
+
+    <ul>
+        {% for dataset in datasets %}
+            <li>
+                <a href="{% url 'dataset_detail' dataset.id %}">{{ dataset.name }}</a>
+                <p>{{ dataset.description }}</p>
+                <p>Creator: {{ dataset.creator }}</p>
+                <p>License: {{ dataset.license }}</p>
+                <p>Stars: {{ dataset.stars }}</p>
+            </li>
+        {% empty %}
+            <li>No datasets available.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
